@@ -1,4 +1,4 @@
-FROM Python
+FROM python
 WORKDIR /app
 COPY main.py /app
 RUN pip install "fastapi[standard]"
